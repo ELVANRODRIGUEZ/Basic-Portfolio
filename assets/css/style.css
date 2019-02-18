@@ -3,8 +3,6 @@ html, body {
 }
 
 body {
-    background-image: url('/images/BackGround.png'); 
-    background-repeat: repeat; 
     display: flex;
     flex-direction: column;
 }
@@ -79,10 +77,10 @@ h1 {
     flex: 1 0 auto;
     overflow: auto;
     border-top: 2px solid #999999;
-    
-    
-
+    background: url(https://github.com/ELVANRODRIGUEZ/Basic-Portfolio/blob/master/assets/images/BackGround.png?raw=true); 
+    background-repeat: repeat; 
 }
+
 .TextWrapper {
     margin-top:25px;
     margin-bottom: 25px;
@@ -115,7 +113,7 @@ hr {
     margin-top: 17px;
     margin-right: 15px; 
     margin-left: 15px; 
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     vertical-align: text-bottom;
 }
 
