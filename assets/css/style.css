@@ -5,6 +5,11 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
+}
+
+.TopRecession {
+    height: 25px;
 }
 
 h1 {
@@ -16,6 +21,15 @@ h1 {
     margin-right: 100px;
     position: relative;
     height: 67.6px;
+    background-color: white;
+}
+
+.HeadderWrapper2 {
+    margin-left: 150px;
+    margin-right: 150px;
+    position: relative;
+    height: 67.6px;
+    background-color: white;
 }
 
 .MyName {
@@ -45,6 +59,10 @@ h1 {
     margin-right: 5px;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    Text-decoration: none;
+
 }
 
 .Portfolio {
@@ -60,6 +78,8 @@ h1 {
     padding-left: 5px;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
 }
 
 .About {
@@ -71,29 +91,43 @@ h1 {
     Margin-right: 5px;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    Text-decoration: none;
 }
 
 .BackGroundWrapper {
     flex: 1 0 auto;
     overflow: auto;
     border-top: 2px solid #999999;
-    background: url(https://github.com/ELVANRODRIGUEZ/Basic-Portfolio/blob/master/assets/images/BackGround.png?raw=true); 
+    background: url(../images/BackGround.png); 
     background-repeat: repeat; 
 }
+
 
 .TextWrapper {
     margin-top:25px;
     margin-bottom: 25px;
-    background-color: #ffffff;
+    background-color: #fafafa;
     margin-left: 100px;
     margin-right: 100px;
     position: relative;
     overflow: auto;
 }
 
+.TextWrapper2 {
+    margin-top:25px;
+    margin-bottom: 25px;
+    background-color: #fafafa;
+    margin-left: 150px;
+    margin-right: 150px;
+    position: relative;
+    overflow: auto;
+}
+
 .AboutMe {
     color: #4aaaa5;
-    border: 15px solid #ffffff;
+    border: 15px solid #fafafa;
     margin: 0;
     position: relative;
     Top: 0;
@@ -120,11 +154,51 @@ hr {
 .Text {
     display: block;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
     color: #777777;
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 15px;
     line-height: 2;
+}
+
+.ContactBox {
+    margin:15px;
+    margin-bottom:20px;
+}
+
+.ContactInfo, .CampoTexto, .CampoMensaje {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #777777;
+}
+
+.CampoTexto, .CampoMensaje {
+    margin-bottom: 15px;
+    width: 100%;
+    border-width:1px;
+    border-style: solid;
+    border-color: #c0c0c0;
+
+}
+
+.CampoMensaje {
+    height: 200px;
+    margin-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#Boton1 {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .Footer {
